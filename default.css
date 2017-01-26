@@ -1,12 +1,13 @@
 html, body {
     margin:0;
+    font-family: 'Lora', serif;
 }
 ul.menubar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: rgba(20, 0, 0, 0.7);
+    background: rgba(20, 0, 0, 0.8);
     z-index:99;
     width: 100%;
     position: fixed;
