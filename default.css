@@ -41,7 +41,9 @@ h1 {
     padding-bottom: 0em;
     margin-bottom: 0em;
 }
-
+h1.small{
+    font-size: 300%;
+}
 
 p.title {
     margin-top: 0px;
@@ -55,8 +57,6 @@ p {
     padding: 5em 5em;
     position: relative;
 }
-
-
 
 .iuparallax1 {
     position:relative;
@@ -80,7 +80,7 @@ p {
 .iuparallax3 {
     position:relative;
     background-image: url('images/iu_parallax3.jpg');
-    height: 50%;
+    height: 40em;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -113,4 +113,34 @@ p {
     right:0;
     bottom:0;
     color:white;
+}
+
+tr:nth-child(even){
+    background: rgba(0, 0, 0, 0.2);
+}
+
+thead{
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+tr {
+    width: 100%;
+    display: inline-table;
+    height:60px;
+    table-layout: fixed;
+}
+
+table{
+    height:300px;
+    display: -moz-groupbox;
+    text-align: left;
+    color: white;
+}
+
+tbody{
+    overflow-y: scroll;
+    height: 200px;
+    width: 100%;
+    position: absolute;
 }
