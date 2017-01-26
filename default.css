@@ -133,6 +133,42 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.sj_parallax1 {
+    position:relative;
+    background-image: url('images/sj_parallax1.jpg');
+    height: 40em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sj_parallax2 {
+    position:relative;
+    background-image: url('images/sj_parallax2.jpg');
+    height: 40em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sj_parallax3 {
+    position:relative;
+    background-image: url('images/sj_parallax3.jpg');
+    height: 30em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sj_parallax4 {
+    position:relative;
+    background-image: url('images/sj_parallax4.jpg');
+    height: 41em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .parallax_overlay {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
