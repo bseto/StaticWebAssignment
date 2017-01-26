@@ -6,7 +6,7 @@ ul.menubar {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #C70039;
+    background: rgba(20, 0, 0, 0.7);
     z-index:99;
     width: 100%;
     position: fixed;
@@ -24,12 +24,12 @@ ul.menubar li a {
 }
 
 ul.menubar li a.active {
-    background-color:#900C3F;
+    background: rgba(150, 100, 100, 0.4);
     color: white;
 }
 
 ul.menubar li a:hover:not(.active) {
-    background-color: #FF5733;
+    background: rgba(80, 80, 80, 0.7);
     color: white;
 }
 
@@ -119,6 +119,15 @@ p {
     position:relative;
     background-image: url('images/jp_parallax3.jpg');
     height: 30em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jp_parallax4 {
+    position:relative;
+    background-image: url('images/jp_parallax4.jpg');
+    height: 41em;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
