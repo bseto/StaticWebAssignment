@@ -62,7 +62,7 @@ p {
 .iu_parallax1 {
     position:relative;
     background-image: url('images/iu_parallax1.jpg');
-    height: 30em;
+    height: 40em;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -162,7 +162,7 @@ p {
 }
 .sj_parallax4 {
     position:relative;
-    background-image: url('images/sj_parallax4.jpg');
+    background-image: url('images/sj_parallax4.gif');
     height: 41em;
     background-attachment: fixed;
     background-position: center;
