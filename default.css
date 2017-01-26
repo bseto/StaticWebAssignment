@@ -9,6 +9,7 @@ ul.menubar {
     background-color: #C70039;
     z-index:99;
     width: 100%;
+    position: fixed;
 }
 
 ul.menubar li {
@@ -58,7 +59,7 @@ p {
     position: relative;
 }
 
-.iuparallax1 {
+.iu_parallax1 {
     position:relative;
     background-image: url('images/iu_parallax1.jpg');
     height: 30em;
@@ -68,7 +69,7 @@ p {
     background-size: cover;
 }
 
-.iuparallax2 {
+.iu_parallax2 {
     position:relative;
     background-image: url('images/iu_parallax2.jpg');
     height: 30em;
@@ -77,7 +78,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.iuparallax3 {
+.iu_parallax3 {
     position:relative;
     background-image: url('images/iu_parallax3.jpg');
     height: 40em;
@@ -87,16 +88,7 @@ p {
     background-size: cover;
 }
 
-.parallax_overlay {
-    background: rgba(70, 72, 82, 0.3);
-    position: absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    color:white;
-}
-.iuparallax4 {
+.iu_parallax4 {
     position:relative;
     background-image: url('images/iu_parallax1.jpg');
     height: 40em;
@@ -105,7 +97,34 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.parallax_dark_overlay {
+.jp_parallax1 {
+    position:relative;
+    background-image: url('images/jp_parallax1.jpg');
+    height: 40em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jp_parallax2 {
+    position:relative;
+    background-image: url('images/jp_parallax2.jpg');
+    height: 40em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jp_parallax3 {
+    position:relative;
+    background-image: url('images/jp_parallax3.jpg');
+    height: 30em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax_overlay {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
     top:0;
@@ -114,8 +133,17 @@ p {
     bottom:0;
     color:white;
 }
-.parallax_color_overlay {
-    background: rgba(139, 0, 0, 0.5);
+.parallax_dark_overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:white;
+}
+.parallax_shade_overlay {
+    background: rgba(50, 0, 0, 0.5);
     position: absolute;
     top:0;
     left:0;
@@ -141,7 +169,8 @@ tr {
 }
 
 table{
-    height:300px;
+    background: rgba(0, 0, 0, 0.2);
+    height:19em;
     display: -moz-groupbox;
     text-align: left;
     color: white;
@@ -149,7 +178,7 @@ table{
 
 tbody{
     overflow-y: scroll;
-    height: 200px;
+    height: 15em;
     width: 100%;
     position: absolute;
 }
