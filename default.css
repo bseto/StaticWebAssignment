@@ -218,7 +218,7 @@ table{
     background: rgba(0, 0, 0, 0.2);
     height:19em;
     display: -moz-groupbox;
-    text-align: left;
+    text-align: center;
     color: white;
 }
 
