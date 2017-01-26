@@ -61,7 +61,7 @@ p {
 .iuparallax1 {
     position:relative;
     background-image: url('images/iu_parallax1.jpg');
-    height: 80%;
+    height: 30em;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@ p {
 .iuparallax2 {
     position:relative;
     background-image: url('images/iu_parallax2.jpg');
-    height: 60%;
+    height: 30em;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -95,6 +95,15 @@ p {
     right:0;
     bottom:0;
     color:white;
+}
+.iuparallax4 {
+    position:relative;
+    background-image: url('images/iu_parallax1.jpg');
+    height: 40em;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .parallax_dark_overlay {
     background: rgba(0, 0, 0, 0.4);
