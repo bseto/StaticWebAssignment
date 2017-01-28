@@ -170,6 +170,15 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.kpop_parallax1 {
+    position:relative;
+    background-image: url('images/kpop.jpg');
+    height: 50em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .parallax_overlay {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
